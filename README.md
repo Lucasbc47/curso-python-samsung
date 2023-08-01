@@ -1,7 +1,7 @@
 # Curso de Python da Samsung
 Esse repositório contém exercícios propostos da Samsung ou em aula do curso de Python do SENAI (iniciado em 17 de junho)
-### - Pocket Python para IA 
-### - Full I.A
+### Pocket Python para IA 
+### Full I.A
 Autoria de Lucas Barboza Costa
 
 
