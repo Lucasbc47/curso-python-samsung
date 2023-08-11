@@ -1,0 +1,26 @@
+"""
+Para calcular, primeiro precisamos tornar essa matriz em uma matriz 2x2
+então:
+[ 2  0 ]
+[ 0  1 ]
+
+então, calculamos o determinante
+
+0 x 0 = 0 
+2 x 1 = 2, logo d = 2
+
+e depois dividimos todos por d.
+se formos dividir, teremos:
+
+2/2 = 1, 0/2 = 0, 0/2 = 0, 1/2 = 0.5 -> 1/2
+
+[ 1  0 ]
+[ 0 1/2]
+
+após isso temos que 
+permutar a matriz,
+trocar os valores na diagonal
+resultado sera entao:
+
+[1/2 0]
+[0   1]
