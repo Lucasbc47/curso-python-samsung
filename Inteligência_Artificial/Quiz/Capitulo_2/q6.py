@@ -34,13 +34,3 @@ import numpy as np
 boston = load_boston()
 X = boston.data
 y = boston.target
-
-# Adicionando uma coluna de 1s para a constante do modelo
-X = np.c_[np.ones(X.shape[0]), X]
-
-# Calculando o vetor de peso usando o método dos mínimos quadrados
-w = np.linalg.inv(X.T @ X) @ X.T @ y
-
-print("Vetor de Peso (w):")
-print(w)
-
